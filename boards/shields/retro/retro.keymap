@@ -2,12 +2,24 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+
+    macros {
+        transcribe: transcribe {
+            compatible = "zmk,behavior-macro";
+            bindings
+                = <&macro_press &mo 1 &kp RC &kp RMETA>
+                , <&macro_pause_for_release>
+                , <&macro_release &mo 1 &kp RC &kp RMETA>
+                ;
+        }
+    }
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer { // Layer 0
             bindings = <
-                &kp A
+                &mt RC(RMETA) A
             >;
         };
     };
