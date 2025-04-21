@@ -19,6 +19,6 @@
 #
 include:
   - board: seeeduino_xiao_ble
-    shield: retro
+    shield: handy_m0100
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y

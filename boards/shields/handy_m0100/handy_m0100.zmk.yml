@@ -1,8 +1,8 @@
 file_format: "1"
-id: retro
-name: Retro
+id: handy_m0100
+name: Handy M0100
 type: shield
-url: https://github.com/cjpais/retro_one
+url: https://github.com/cjpais/handy_m0100
 requires: [seeed_xiao]
 features:
   - keys

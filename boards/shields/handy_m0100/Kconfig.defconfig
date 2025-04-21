@@ -1,7 +1,7 @@
-if SHIELD_RETRO
+if SHIELD_HANDY_M0100
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Retro"
+    default "Handy M0100"
 
 endif
